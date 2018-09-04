@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d215a994-96a8-42dc-8c79-df3b84291f54" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML_wtih_transform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Get_features.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML_ways.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_csv/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data_csv/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i006rb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i006rd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i006sa-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i007sa-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i007sb-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i007sd-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i015sa-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i015sb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i024sa-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i025qa-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i025qb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i025qd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i027rc-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i027rd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i027re-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i030qa-fg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i030qb-fg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i030qc-fg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i048qd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i048qe-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i056qe-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i056ra-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i238ta-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i238tb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i239va-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i239vb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i239vd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i240ta-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i240tb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i240td-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i240ua-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i240ub-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i240ud-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i240va-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i240vb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i240vd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i241tb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i241td-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i241ua-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i241ub-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i241va-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i241vb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i241vd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i246ud-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i255tb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i255td-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i255vd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i256tb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i256td-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i256ua-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i256ub-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i256ud-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i256va-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i256vb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i256vd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i257ta-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i257tb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i257td-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i258ta-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i261tb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i261td-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i264ta-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i264tb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i264td-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i280ud-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i282va-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i282vb-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i290va-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/no/i290vb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i000sa-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i000sb-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i000sd-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i002qa-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i002qb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i002qd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i003ra-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i003rb-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i003rd-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i008qa-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i008qb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i008qd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i014sa-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i014sb-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i014sd-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i033ra-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i033rb-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i040qa-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i040qb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i051sa-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i051sb-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i051sd-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i054qd-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i054ra-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i054rb-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i054rd-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i059sb-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i059sd-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i067sa-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i067sb-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i067sd-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i211va-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i211vb-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i212va-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i212vb-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i212vd-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i219ua-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i219ub-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i236va-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i236vb-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i236vd-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i246ta-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i246tb-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i246td-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i265uc-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i277vd-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i277ve-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i280va-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i280vb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i280vd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i281va-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i282ta-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i282uc-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i282ud-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i288va-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i288ve-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i295va-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i295vb-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i295vc-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i295vd-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i296tb-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i296td-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i297vc-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i297vd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/database/smile/i297ve-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/i064qa-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/i064qb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/i064qc-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/i064qd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/i064qe-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/i064rb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/i064rc-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/i064re-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/i064sa-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/i064sb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/i064sc-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/i064sd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/test1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/test2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/test4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_single_pic.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-408720640">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="1547" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="1547" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ML_wtih_transform.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/get_features.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#130#162#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/check_smile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="5" />
+              <folding>
+                <element signature="e#151#187#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>im</find>
+      <find>path_pic</find>
+      <find>imgs_nosmiles</find>
+      <find>way_LR</find>
+      <find>MLPC</find>
+      <find>LSVC</find>
+      <find>LR</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>im</replace>
+      <replace>img</replace>
+      <replace>img_rd</replace>
+      <replace>imgs_no_smiles</replace>
+      <replace>model_LR</replace>
+      <replace>LSVC</replace>
+      <replace>MLPC</replace>
+      <replace>SGDC</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ML_ways.py" />
+        <option value="$PROJECT_DIR$/ML_models_save.py" />
+        <option value="$PROJECT_DIR$/check_smile.py" />
+        <option value="$PROJECT_DIR$/get_features.py" />
+        <option value="$PROJECT_DIR$/ML_wtih_transform.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1037" />
+    <option name="y" value="59" />
+    <option name="width" value="1646" />
+    <option name="height" value="1051" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ML_smiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML_smiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.check_smile">
+    <configuration name="ML_models_save" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML_smiles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML_models_save.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ML_ways" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML_smiles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML_ways.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ML_wtih_transform" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML_smiles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML_wtih_transform.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="check_smile" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML_smiles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/check_smile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_features" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML_smiles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_features.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.get_features" />
+      <item itemvalue="Python.ML_ways" />
+      <item itemvalue="Python.check_smile" />
+      <item itemvalue="Python.ML_models_save" />
+      <item itemvalue="Python.ML_wtih_transform" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.check_smile" />
+        <item itemvalue="Python.ML_wtih_transform" />
+        <item itemvalue="Python.ML_ways" />
+        <item itemvalue="Python.get_features" />
+        <item itemvalue="Python.ML_models_save" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d215a994-96a8-42dc-8c79-df3b84291f54" name="Default Changelist" comment="" />
+      <created>1535960251581</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535960251581</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="953" y="29" width="1646" height="1051" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15773259" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.45295405" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test_single_pic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/sklearn/linear_model/logistic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="1236" selection-start-line="1236" selection-end-line="1236" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/sklearn/svm/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="852" selection-start-line="852" selection-end-line="852" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_models_save.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+          <folding>
+            <element signature="e#145#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_ways.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="110" lean-forward="true" selection-end-line="149" />
+          <folding>
+            <element signature="e#145#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check_smile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="5" />
+          <folding>
+            <element signature="e#151#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#130#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_wtih_transform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
