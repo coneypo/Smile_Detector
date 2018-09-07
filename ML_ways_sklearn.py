@@ -14,17 +14,17 @@ from sklearn.model_selection import train_test_split
 # 用于数据预加工标准化
 from sklearn.preprocessing import StandardScaler
 
-from sklearn.linear_model import LogisticRegression  # 线性模型中的Logistic回归模型
-from sklearn.neural_network import MLPClassifier  # 神经网络模型中的多层网络模型
-from sklearn.svm import LinearSVC  # SVM模型中的线性SVC模型
-from sklearn.linear_model import SGDClassifier  # 线性模型中的随机梯度下降模型
+from sklearn.linear_model import LogisticRegression     # 线性模型中的 Logistic 回归模型
+from sklearn.neural_network import MLPClassifier        # 神经网络模型中的多层网络模型
+from sklearn.svm import LinearSVC                       # SVM 模型中的线性 SVC 模型
+from sklearn.linear_model import SGDClassifier          # 线性模型中的随机梯度下降模型
 
 from sklearn.externals import joblib
 
 
 # 从 csv 读取数据
 def pre_data():
-    # 41维表头
+    # 41 维表头
     column_names = []
     for i in range(0, 40):
         column_names.append("feature_" + str(i + 1))
@@ -52,6 +52,8 @@ def pre_data():
 
 path_models = "data_models/"
 
+
+# use four kinds of Machine Learning models
 
 # LR, logistic regression, 逻辑斯特回归分类（线性模型）
 def model_LR():

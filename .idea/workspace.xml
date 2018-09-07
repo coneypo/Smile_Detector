@@ -3,25 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d215a994-96a8-42dc-8c79-df3b84291f54" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check_smile.py" beforeDir="false" afterPath="$PROJECT_DIR$/check_smile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_imgs/i064qa-mn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_imgs/i064qb-mn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_imgs/i064qc-mn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_imgs/i064qd-mn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_imgs/i064qe-mn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_imgs/i064rb-mn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_imgs/i064rc-mn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_imgs/i064re-mn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_imgs/i064sa-mn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_imgs/i064sb-mn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_imgs/i064sc-mn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_imgs/i064sd-mn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_imgs/test1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_imgs/test2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_imgs/test4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_models/model_LSVC.m" beforeDir="false" afterPath="$PROJECT_DIR$/data_models/model_LSVC.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_models/model_MLPC.m" beforeDir="false" afterPath="$PROJECT_DIR$/data_models/model_MLPC.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_models/model_SGDC.m" beforeDir="false" afterPath="$PROJECT_DIR$/data_models/model_SGDC.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML_ways_sklearn.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_ways_sklearn.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,29 +15,29 @@
     <session id="-408720640">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="3" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="14" />
+          <entry key="py" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="14" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1925" />
+          <entry key="py" value="2017" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1925" />
+          <entry key="Python" value="2017" />
         </counts>
       </usages-collector>
     </session>
@@ -72,6 +54,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ML_ways_sklearn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+              <folding>
+                <element signature="e#199#218#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/check_smile.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -126,12 +120,13 @@
         <option value="$PROJECT_DIR$/get_features.py" />
         <option value="$PROJECT_DIR$/ML_wtih_transform.py" />
         <option value="$PROJECT_DIR$/check_smile.py" />
+        <option value="$PROJECT_DIR$/ML_ways_sklearn.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="930" />
-    <option name="y" value="29" />
+    <option name="x" value="888" />
+    <option name="y" value="781" />
     <option name="width" value="1646" />
     <option name="height" value="1051" />
   </component>
@@ -146,6 +141,11 @@
             <path>
               <item name="ML_smiles" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML_smiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ML_smiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML_smiles" type="462c0819:PsiDirectoryNode" />
+              <item name="data_csv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ML_smiles" type="b2602c69:ProjectViewProjectNode" />
@@ -311,15 +311,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="545" y="72" width="1646" height="1051" extended-state="0" />
+    <frame x="934" y="67" width="1646" height="1051" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15773259" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15773259" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3391685" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3391685" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -368,6 +368,16 @@
           <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
           <folding>
             <element signature="e#204#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_ways_sklearn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding>
+            <element signature="e#199#218#0" expanded="true" />
           </folding>
         </state>
       </provider>
