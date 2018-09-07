@@ -5,9 +5,9 @@
 # Github:       https://github.com/coneypo/ML_smiles
 
 
-import dlib         # 人脸识别的库dlib
-import numpy as np  # 数据处理的库numpy
-import cv2          # 图像处理的库OpenCv
+import dlib         # 人脸识别的库 Dlib
+import numpy as np  # 数据处理的库 numpy
+import cv2          # 图像处理的库 OpenCv
 import os           # 读取文件
 import csv          # csv操作
 
@@ -37,8 +37,8 @@ def get_features(img_rd, pos_49to68):
         pos = (point[0, 0], point[0, 1])
         pos_68.append(pos)
 
-    # 将点49-68写入csv
-    # 即pos_68[48]-pos_68[67]
+    # 将点 49-68 写入 CSV
+    # 即 pos_68[48]-pos_68[67]
     for i in range(48, 68):
         pos_49to68.append(pos_68[i][0])
         pos_49to68.append(pos_68[i][1])
@@ -58,6 +58,7 @@ imgs_no_smiles = os.listdir(path_pic_no_smiles)
 path_csv = "data_csv/"
 
 
+# write the features into CSV
 def write_into_CSV():
     with open(path_csv+"data.csv", "w", newline="") as csvfile:
         writer = csv.writer(csvfile)

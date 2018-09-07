@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d215a994-96a8-42dc-8c79-df3b84291f54" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_ways_sklearn.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_ways_sklearn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_features.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,28 +31,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2017" />
+          <entry key="py" value="2063" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2017" />
+          <entry key="Python" value="2063" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/get_features.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <state relative-caret-position="585">
+              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+              <folding>
+                <element signature="e#183#215#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ML_ways_sklearn.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -117,18 +119,18 @@
       <list>
         <option value="$PROJECT_DIR$/ML_ways.py" />
         <option value="$PROJECT_DIR$/ML_models_save.py" />
-        <option value="$PROJECT_DIR$/get_features.py" />
         <option value="$PROJECT_DIR$/ML_wtih_transform.py" />
         <option value="$PROJECT_DIR$/check_smile.py" />
         <option value="$PROJECT_DIR$/ML_ways_sklearn.py" />
+        <option value="$PROJECT_DIR$/get_features.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="888" />
-    <option name="y" value="781" />
+    <option name="x" value="863" />
+    <option name="y" value="27" />
     <option name="width" value="1646" />
-    <option name="height" value="1051" />
+    <option name="height" value="1144" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -311,7 +313,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="934" y="67" width="1646" height="1051" extended-state="0" />
+    <frame x="863" y="27" width="1646" height="1144" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15773259" />
@@ -355,13 +357,6 @@
     <entry file="file://$PROJECT_DIR$/ML_models_save.py" />
     <entry file="file://$PROJECT_DIR$/ML_ways.py" />
     <entry file="file://$PROJECT_DIR$/ML_wtih_transform.py" />
-    <entry file="file://$PROJECT_DIR$/get_features.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/check_smile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -378,6 +373,16 @@
           <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
           <folding>
             <element signature="e#199#218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+          <folding>
+            <element signature="e#183#215#0" expanded="true" />
           </folding>
         </state>
       </provider>
