@@ -66,7 +66,7 @@ def write_into_CSV():
         # 处理带笑脸的图像
         print("######## with smiles #########")
         for i in range(len(imgs_smiles)):
-            print("img:", path_pic_smiles, imgs_smiles[i])
+            print(path_pic_smiles, imgs_smiles[i])
 
             # 用来存放41维特征
             features_csv_smiles = []
@@ -82,7 +82,7 @@ def write_into_CSV():
         # 处理不带笑脸的图像
         print("######## no smiles #########")
         for i in range(len(imgs_no_smiles)):
-            print("img", path_pic_no_smiles, imgs_no_smiles[i])
+            print(path_pic_no_smiles, imgs_no_smiles[i])
 
             # 用来存放41维特征
             features_csv_no_smiles = []
@@ -97,4 +97,4 @@ def write_into_CSV():
 
 
 # 写入CSV
-# write_into_CSV()
+write_into_CSV()

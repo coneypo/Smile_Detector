@@ -21,11 +21,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="csv" value="1" />
           <entry key="py" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="15" />
         </counts>
       </usages-collector>
@@ -46,12 +48,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/get_features.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+            <state relative-caret-position="49">
+              <caret line="68" column="18" lean-forward="true" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
               <folding>
                 <element signature="e#183#215#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_csv/data.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1150" />
           </provider>
         </entry>
       </file>
@@ -176,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.check_smile">
+  <component name="RunManager" selected="Python.get_features">
     <configuration name="ML_models_save" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML_smiles" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -291,10 +300,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.get_features" />
         <item itemvalue="Python.check_smile" />
         <item itemvalue="Python.ML_wtih_transform" />
         <item itemvalue="Python.ML_ways" />
-        <item itemvalue="Python.get_features" />
         <item itemvalue="Python.ML_models_save" />
       </list>
     </recent_temporary>
@@ -316,12 +325,12 @@
     <frame x="863" y="27" width="1646" height="1144" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15773259" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15773259" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3391685" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6693148" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -357,14 +366,9 @@
     <entry file="file://$PROJECT_DIR$/ML_models_save.py" />
     <entry file="file://$PROJECT_DIR$/ML_ways.py" />
     <entry file="file://$PROJECT_DIR$/ML_wtih_transform.py" />
-    <entry file="file://$PROJECT_DIR$/check_smile.py">
+    <entry file="file://$PROJECT_DIR$/data_csv/data.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          <folding>
-            <element signature="e#204#240#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-1150" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ML_ways_sklearn.py">
@@ -377,10 +381,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/check_smile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <folding>
+            <element signature="e#204#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/get_features.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        <state relative-caret-position="49">
+          <caret line="68" column="18" lean-forward="true" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
           <folding>
             <element signature="e#183#215#0" expanded="true" />
           </folding>
