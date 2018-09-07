@@ -3,8 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="d215a994-96a8-42dc-8c79-df3b84291f54" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_wtih_transform.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/check_smile.py" beforeDir="false" afterPath="$PROJECT_DIR$/check_smile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/i064qa-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/i064qb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/i064qc-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/i064qd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/i064qe-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/i064rb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/i064rc-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/i064re-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/i064sa-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/i064sb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/i064sc-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/i064sd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/test1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/test2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/test4.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data_models/model_LSVC.m" beforeDir="false" afterPath="$PROJECT_DIR$/data_models/model_LSVC.m" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_models/model_MLPC.m" beforeDir="false" afterPath="$PROJECT_DIR$/data_models/model_MLPC.m" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_models/model_SGDC.m" beforeDir="false" afterPath="$PROJECT_DIR$/data_models/model_SGDC.m" afterDir="false" />
@@ -19,9 +33,9 @@
     <session id="-408720640">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -36,12 +50,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1552" />
+          <entry key="py" value="1925" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1552" />
+          <entry key="Python" value="1925" />
         </counts>
       </usages-collector>
     </session>
@@ -60,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/check_smile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="15">
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
               <folding>
                 <element signature="e#204#240#0" expanded="true" />
               </folding>
@@ -116,8 +130,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="860" />
-    <option name="y" value="32" />
+    <option name="x" value="930" />
+    <option name="y" value="29" />
     <option name="width" value="1646" />
     <option name="height" value="1051" />
   </component>
@@ -126,7 +140,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,10 +147,16 @@
               <item name="ML_smiles" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML_smiles" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ML_smiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML_smiles" type="462c0819:PsiDirectoryNode" />
+              <item name="data_imgs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,7 +311,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="856" y="33" width="1646" height="1051" extended-state="0" />
+    <frame x="545" y="72" width="1646" height="1051" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15773259" />
@@ -300,7 +319,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5328227" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3391685" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -345,8 +364,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/check_smile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="15">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
           <folding>
             <element signature="e#204#240#0" expanded="true" />
           </folding>
