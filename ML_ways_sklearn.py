@@ -2,7 +2,7 @@
 # Updated on:   2018-09-03
 # Author:       coneypo
 # Blog:         http://www.cnblogs.com/AdaminXie/
-# Github:       https://github.com/coneypo/ML_smiles
+# Github:       https://github.com/coneypo/Smile_Detector
 
 
 # pandas 读取 CSV
@@ -31,7 +31,7 @@ def pre_data():
     column_names.append("output")
 
     # read csv
-    rd_csv = pd.read_csv("data_csv/data.csv", names=column_names)
+    rd_csv = pd.read_csv("data_csvs/data.csv", names=column_names)
 
     # 输出 csv 文件的维度
     # print("shape:", rd_csv.shape)
@@ -140,7 +140,7 @@ def model_LSVC():
     return ss_LSVC
 
 
-#model_LSVC()
+# model_LSVC()
 
 
 # SGDC, Stochastic Gradient Decent Classifier, 随机梯度下降法求解(线性模型)
@@ -168,4 +168,4 @@ def model_SGDC():
 
     return ss_SGDC
 
-#model_SGDC()
+# model_SGDC()

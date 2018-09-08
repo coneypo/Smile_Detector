@@ -1,8 +1,9 @@
 # Created on:   2018-01-27
 # Updated on:   2018-09-03
+
 # Author:       coneypo
 # Blog:         http://www.cnblogs.com/AdaminXie/
-# Github:       https://github.com/coneypo/ML_smiles
+# Github:       https://github.com/coneypo/Smile_Detector
 
 
 import dlib         # 人脸识别的库 Dlib
@@ -17,7 +18,7 @@ predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
 
 
 # 输入图像文件所在路径，返回一个41维数组（包含提取到的40维特征和1维输出标记）
-def get_features(img_rd, pos_49to68):
+def get_features(img_rd):
 
     # 输入:  img_rd:      图像文件
     # 输出:  pos_49to68:  feature 49 to feature 68, 20 feature points in all, 40 points
@@ -37,6 +38,7 @@ def get_features(img_rd, pos_49to68):
         pos = (point[0, 0], point[0, 1])
         pos_68.append(pos)
 
+    pos_49to68 = []
     # 将点 49-68 写入 CSV
     # 即 pos_68[48]-pos_68[67]
     for i in range(48, 68):
@@ -54,8 +56,8 @@ path_pic_no_smiles = "data_imgs/database/no_smiles/"
 imgs_smiles = os.listdir(path_pic_smiles)
 imgs_no_smiles = os.listdir(path_pic_no_smiles)
 
-# 存储提取特征数据的CSV的路径
-path_csv = "data_csv/"
+# 存储提取特征数据的 CSV 的路径
+path_csv = "data_csvs/"
 
 
 # write the features into CSV
@@ -72,7 +74,7 @@ def write_into_CSV():
             features_csv_smiles = []
 
             # append "1" means "with smiles"
-            get_features(path_pic_smiles+imgs_smiles[i], features_csv_smiles)
+            features_csv_smiles = get_features(path_pic_smiles+imgs_smiles[i])
             features_csv_smiles.append(1)
             print("features:", features_csv_smiles, "\n")
 
@@ -88,7 +90,7 @@ def write_into_CSV():
             features_csv_no_smiles = []
 
             # append "0" means "no smiles"
-            get_features(path_pic_no_smiles+imgs_no_smiles[i], features_csv_no_smiles)
+            features_csv_no_smiles = get_features(path_pic_no_smiles + imgs_no_smiles[i])
             features_csv_no_smiles.append(0)
             print("features:", features_csv_no_smiles, "\n")
 
@@ -97,4 +99,4 @@ def write_into_CSV():
 
 
 # 写入CSV
-write_into_CSV()
+# write_into_CSV()

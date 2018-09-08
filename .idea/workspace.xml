@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d215a994-96a8-42dc-8c79-df3b84291f54" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/show_lip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML_ways_sklearn.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_ways_sklearn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_smile.py" beforeDir="false" afterPath="$PROJECT_DIR$/check_smile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_csv/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/test_imgs/test2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_models/model_LSVC.m" beforeDir="false" afterPath="$PROJECT_DIR$/data_models/model_LSVC.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_models/model_MLPC.m" beforeDir="false" afterPath="$PROJECT_DIR$/data_models/model_MLPC.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_models/model_SGDC.m" beforeDir="false" afterPath="$PROJECT_DIR$/data_models/model_SGDC.m" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/get_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_features.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,36 +51,53 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-2018419059">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="432" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="432" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/get_features.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="68" column="18" lean-forward="true" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
-              <folding>
-                <element signature="e#183#215#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="459">
+              <caret line="101" column="18" lean-forward="true" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_csv/data.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1150" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ML_ways_sklearn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-              <folding>
-                <element signature="e#199#218#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1026">
+              <caret line="142" column="2" selection-start-line="142" selection-start-column="2" selection-end-line="142" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -79,10 +105,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/check_smile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            <state relative-caret-position="285">
+              <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/show_lip.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
               <folding>
-                <element signature="e#204#240#0" expanded="true" />
+                <element signature="e#189#222#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,42 +167,33 @@
         <option value="$PROJECT_DIR$/check_smile.py" />
         <option value="$PROJECT_DIR$/ML_ways_sklearn.py" />
         <option value="$PROJECT_DIR$/get_features.py" />
+        <option value="$PROJECT_DIR$/show_lip.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="863" />
-    <option name="y" value="27" />
+    <option name="x" value="813" />
+    <option name="y" value="69" />
     <option name="width" value="1646" />
-    <option name="height" value="1144" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ML_smiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML_smiles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ML_smiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML_smiles" type="462c0819:PsiDirectoryNode" />
-              <item name="data_csv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ML_smiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML_smiles" type="462c0819:PsiDirectoryNode" />
-              <item name="data_imgs" type="462c0819:PsiDirectoryNode" />
+              <item name="Smile_Detector" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Smile_Detector" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,8 +211,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.get_features">
-    <configuration name="ML_models_save" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.show_lip">
+    <configuration name="ML_ways_sklearn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML_smiles" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,28 +224,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML_models_save.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ML_ways" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ML_smiles" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML_ways.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML_ways_sklearn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,20 +296,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="show_lip" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML_smiles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/show_lip.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.get_features" />
-      <item itemvalue="Python.ML_ways" />
       <item itemvalue="Python.check_smile" />
-      <item itemvalue="Python.ML_models_save" />
       <item itemvalue="Python.ML_wtih_transform" />
+      <item itemvalue="Python.show_lip" />
+      <item itemvalue="Python.ML_ways_sklearn" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.show_lip" />
+        <item itemvalue="Python.ML_ways_sklearn" />
         <item itemvalue="Python.get_features" />
         <item itemvalue="Python.check_smile" />
         <item itemvalue="Python.ML_wtih_transform" />
-        <item itemvalue="Python.ML_ways" />
-        <item itemvalue="Python.ML_models_save" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +348,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="863" y="27" width="1646" height="1144" extended-state="0" />
+    <frame x="671" y="43" width="1646" height="1053" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15773259" />
@@ -330,7 +356,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6693148" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42030567" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -366,37 +392,34 @@
     <entry file="file://$PROJECT_DIR$/ML_models_save.py" />
     <entry file="file://$PROJECT_DIR$/ML_ways.py" />
     <entry file="file://$PROJECT_DIR$/ML_wtih_transform.py" />
-    <entry file="file://$PROJECT_DIR$/data_csv/data.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1150" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data_csv/data.csv" />
     <entry file="file://$PROJECT_DIR$/ML_ways_sklearn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding>
-            <element signature="e#199#218#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1026">
+          <caret line="142" column="2" selection-start-line="142" selection-start-column="2" selection-end-line="142" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/check_smile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          <folding>
-            <element signature="e#204#240#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/get_features.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="68" column="18" lean-forward="true" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+        <state relative-caret-position="459">
+          <caret line="101" column="18" lean-forward="true" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/show_lip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
           <folding>
-            <element signature="e#183#215#0" expanded="true" />
+            <element signature="e#189#222#0" expanded="true" />
           </folding>
         </state>
       </provider>

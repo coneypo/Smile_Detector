@@ -2,7 +2,7 @@
 # Updated on:   2018-09-07
 # Author:       coneypo
 # Blog:         http://www.cnblogs.com/AdaminXie/
-# Github:       https://github.com/coneypo/ML_smiles
+# Github:       https://github.com/coneypo/Smile_Detector
 
 # use the saved model
 from sklearn.externals import joblib
@@ -16,8 +16,7 @@ import cv2
 path_test_img = "data_imgs/test_imgs/test1.jpg"
 
 # 提取单张40维度特征
-pos_49to68_test = []
-get_features(path_test_img, pos_49to68_test)
+pos_49to68_test = get_features(path_test_img)
 
 # path of models
 path_models = "data_models/"
