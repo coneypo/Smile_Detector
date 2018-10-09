@@ -1,5 +1,5 @@
 # Smile Detector
-
+<br>
 
 Training and testing smile-detector Machine Learning models / 
 利用机器学习模型训练和检测笑脸 
@@ -27,7 +27,7 @@ Training and testing smile-detector Machine Learning models /
 > 显示某人嘴唇的位置　
    
 <br>
-Author :       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; coneypo
-Mail : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;coneypo@foxmail.com
+Author :       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; coneypo <br>
+Mail : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;coneypo@foxmail.com <br>
 Last Updated:  &nbsp; &nbsp;Oct 9
    
