@@ -7,7 +7,7 @@ Training and testing smile-detector Machine Learning models /
 
  get_features.py 
   
- > get_features(img_rd, pos_49to68):　　　　
+ > get_features(img_rd, pos_49to68)<br>　　　　
  > &nbsp;&nbsp; 输入人脸图像路径;
  > &nbsp;&nbsp;利用 Dlib 的 “shape_predictor_68_face_landmarks.dat” 提取嘴部20个特征点坐标的40个特征值；
    
