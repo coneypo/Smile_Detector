@@ -4,6 +4,7 @@
 Training and testing smile-detector Machine Learning models / 
 利用机器学习模型训练和检测笑脸 
 <br>
+
  get_features.py 
   
  > get_features(img_rd, pos_49to68):　　　　
