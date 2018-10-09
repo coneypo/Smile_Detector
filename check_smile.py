@@ -1,8 +1,9 @@
-# Created on:   2018-01-27
-# Updated on:   2018-09-07
 # Author:       coneypo
 # Blog:         http://www.cnblogs.com/AdaminXie/
 # Github:       https://github.com/coneypo/Smile_Detector
+
+# Created on:   2018-01-27
+# Updated on:   2018-10-09
 
 # use the saved model
 from sklearn.externals import joblib
@@ -13,13 +14,13 @@ import ML_ways_sklearn
 import cv2
 
 # path of test img
-path_test_img = "data_imgs/test_imgs/test1.jpg"
+path_test_img = "data/data_imgs/test_imgs/test1.jpg"
 
 # 提取单张40维度特征
 pos_49to68_test = get_features(path_test_img)
 
 # path of models
-path_models = "data_models/"
+path_models = "data/data_models/"
 
 print("The result of"+path_test_img+":")
 print('\n')

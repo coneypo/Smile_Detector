@@ -1,23 +1,22 @@
-# Created on:   2018-01-27
-# Updated on:   2018-09-03
-
 # Author:       coneypo
 # Blog:         http://www.cnblogs.com/AdaminXie/
 # Github:       https://github.com/coneypo/Smile_Detector
 
+# Created on:   2018-01-27
+# Updated on:   2018-10-09
 
 import dlib         # 人脸识别的库 Dlib
 import numpy as np  # 数据处理的库 numpy
 import cv2          # 图像处理的库 OpenCv
 import os           # 读取文件
-import csv          # csv操作
+import csv          # CSV 操作
 
 
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
+predictor = dlib.shape_predictor('data/data_dlib_model/shape_predictor_68_face_landmarks.dat')
 
 
-# 输入图像文件所在路径，返回一个41维数组（包含提取到的40维特征和1维输出标记）
+# 输入图像文件所在路径，返回一个 41 维数组（包含提取到的40维特征和1维输出标记）
 def get_features(img_rd):
 
     # 输入:  img_rd:      图像文件
@@ -49,15 +48,15 @@ def get_features(img_rd):
 
 
 # 读取图像所在的路径
-path_pic_smiles = "data_imgs/database/smiles/"
-path_pic_no_smiles = "data_imgs/database/no_smiles/"
+path_images_with_smiles = "data/data_imgs/database/smiles/"
+path_images_no_smiles = "data/data_imgs/database/no_smiles/"
 
 # 获取路径下的图像文件
-imgs_smiles = os.listdir(path_pic_smiles)
-imgs_no_smiles = os.listdir(path_pic_no_smiles)
+imgs_smiles = os.listdir(path_images_with_smiles)
+imgs_no_smiles = os.listdir(path_images_no_smiles)
 
 # 存储提取特征数据的 CSV 的路径
-path_csv = "data_csvs/"
+path_csv = "data/data_csvs/"
 
 
 # write the features into CSV
@@ -68,13 +67,13 @@ def write_into_CSV():
         # 处理带笑脸的图像
         print("######## with smiles #########")
         for i in range(len(imgs_smiles)):
-            print(path_pic_smiles, imgs_smiles[i])
+            print(path_images_with_smiles, imgs_smiles[i])
 
             # 用来存放41维特征
             features_csv_smiles = []
 
             # append "1" means "with smiles"
-            features_csv_smiles = get_features(path_pic_smiles+imgs_smiles[i])
+            features_csv_smiles = get_features(path_images_with_smiles+imgs_smiles[i])
             features_csv_smiles.append(1)
             print("features:", features_csv_smiles, "\n")
 
@@ -84,13 +83,13 @@ def write_into_CSV():
         # 处理不带笑脸的图像
         print("######## no smiles #########")
         for i in range(len(imgs_no_smiles)):
-            print(path_pic_no_smiles, imgs_no_smiles[i])
+            print(path_images_no_smiles, imgs_no_smiles[i])
 
             # 用来存放41维特征
             features_csv_no_smiles = []
 
             # append "0" means "no smiles"
-            features_csv_no_smiles = get_features(path_pic_no_smiles + imgs_no_smiles[i])
+            features_csv_no_smiles = get_features(path_images_no_smiles + imgs_no_smiles[i])
             features_csv_no_smiles.append(0)
             print("features:", features_csv_no_smiles, "\n")
 

@@ -1,9 +1,9 @@
-# Created on:   2018-01-27
-# Updated on:   2018-09-03
 # Author:       coneypo
 # Blog:         http://www.cnblogs.com/AdaminXie/
 # Github:       https://github.com/coneypo/Smile_Detector
 
+# Created on:   2018-01-27
+# Updated on:   2018-10-09
 
 # pandas 读取 CSV
 import pandas as pd
@@ -31,7 +31,7 @@ def pre_data():
     column_names.append("output")
 
     # read csv
-    rd_csv = pd.read_csv("data_csvs/data.csv", names=column_names)
+    rd_csv = pd.read_csv("data/data_csvs/data.csv", names=column_names)
 
     # 输出 csv 文件的维度
     # print("shape:", rd_csv.shape)
@@ -50,10 +50,8 @@ def pre_data():
     return X_train, X_test, y_train, y_test
 
 
-path_models = "data_models/"
+path_models = "data/data_models/"
 
-
-# use four kinds of Machine Learning models
 
 # LR, logistic regression, 逻辑斯特回归分类（线性模型）
 def model_LR():
@@ -77,8 +75,9 @@ def model_LR():
 
     # 评分函数
     score_LR = LR.score(X_test_LR, y_test_LR)
-    # print("The accurary of LR:", score_LR)
+    print("The accurary of LR:", score_LR)
 
+    # print(type(ss_LR))
     return (ss_LR)
 
 

@@ -1,20 +1,21 @@
-# Created on:   2018-01-27
-# Updated on:   2018-09-06
-
 # Author:       coneypo
 # Blog:         http://www.cnblogs.com/AdaminXie/
 # Github:       https://github.com/coneypo/Smile_Detector
 
-# draw the positions of someone's lip
+# Created on:   2018-01-27
+# Updated on:   2018-10-09
+
+# 显示嘴部特征点
+# Draw the positions of someone's lip
 
 import dlib         # 人脸识别的库 Dlib
 import cv2          # 图像处理的库 OpenCv
 from get_features import get_features   # return the positions of feature points
 
-path_test_img = "data_imgs/test_imgs/i064rc-mn.jpg"
+path_test_img = "data/data_imgs/test_imgs/i064rc-mn.jpg"
 
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
+predictor = dlib.shape_predictor('data/data_dlib_model/shape_predictor_68_face_landmarks.dat')
 
 pos_49to68 = get_features(path_test_img)
 

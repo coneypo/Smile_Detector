@@ -2,16 +2,165 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d215a994-96a8-42dc-8c79-df3b84291f54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/show_lip.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ML_ways_sklearn.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_ways_sklearn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/check_smile.py" beforeDir="false" afterPath="$PROJECT_DIR$/check_smile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_csv/data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_imgs/test_imgs/test2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_models/model_LSVC.m" beforeDir="false" afterPath="$PROJECT_DIR$/data_models/model_LSVC.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_models/model_MLPC.m" beforeDir="false" afterPath="$PROJECT_DIR$/data_models/model_MLPC.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_models/model_SGDC.m" beforeDir="false" afterPath="$PROJECT_DIR$/data_models/model_SGDC.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_csvs/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i006rb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i006rd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i006sa-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i007sa-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i007sb-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i007sd-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i015sa-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i015sb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i024sa-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i025qa-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i025qb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i025qd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i027rc-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i027rd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i027re-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i030qa-fg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i030qb-fg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i030qc-fg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i048qd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i048qe-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i056qe-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i056ra-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i238ta-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i238tb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i239va-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i239vb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i239vd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i240ta-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i240tb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i240td-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i240ua-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i240ub-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i240ud-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i240va-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i240vb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i240vd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i241tb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i241td-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i241ua-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i241ub-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i241va-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i241vb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i241vd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i246ud-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i255tb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i255td-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i255vd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i256tb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i256td-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i256ua-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i256ub-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i256ud-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i256va-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i256vb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i256vd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i257ta-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i257tb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i257td-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i258ta-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i261tb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i261td-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i264ta-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i264tb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i264td-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i280ud-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i282va-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i282vb-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i290va-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/no_smiles/i290vb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i000sa-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i000sb-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i000sd-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i002qa-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i002qb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i002qd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i003ra-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i003rb-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i003rd-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i008qa-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i008qb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i008qd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i014sa-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i014sb-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i014sd-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i033ra-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i033rb-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i040qa-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i040qb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i051sa-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i051sb-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i051sd-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i054qd-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i054ra-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i054rb-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i054rd-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i059sb-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i059sd-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i067sa-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i067sb-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i067sd-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i211va-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i211vb-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i212va-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i212vb-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i212vd-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i219ua-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i219ub-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i236va-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i236vb-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i236vd-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i246ta-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i246tb-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i246td-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i265uc-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i277vd-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i277ve-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i280va-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i280vb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i280vd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i281va-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i282ta-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i282uc-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i282ud-fn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i288va-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i288ve-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i295va-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i295vb-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i295vc-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i295vd-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i296tb-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i296td-mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i297vc-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i297vd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/database/smiles/i297ve-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/test_imgs/i064qa-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/test_imgs/i064qb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/test_imgs/i064qc-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/test_imgs/i064qd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/test_imgs/i064qe-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/test_imgs/i064rb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/test_imgs/i064rc-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/test_imgs/i064re-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/test_imgs/i064sa-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/test_imgs/i064sb-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/test_imgs/i064sc-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/test_imgs/i064sd-mn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/test_imgs/test1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_imgs/test_imgs/test3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_models/model_LR.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_models/model_LSVC.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_models/model_MLPC.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_models/model_SGDC.m" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/get_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape_predictor_68_face_landmarks.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/show_lip.py" beforeDir="false" afterPath="$PROJECT_DIR$/show_lip.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,20 +203,24 @@
     <session id="-2018419059">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="432" />
+          <entry key="py" value="584" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="432" />
+          <entry key="Python" value="584" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -87,8 +240,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/get_features.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="101" column="18" lean-forward="true" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#189#222#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,8 +252,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ML_ways_sklearn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="142" column="2" selection-start-line="142" selection-start-column="2" selection-end-line="142" selection-end-column="2" />
+            <state relative-caret-position="1200">
+              <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
+              <folding>
+                <element signature="e#204#223#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,8 +264,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/check_smile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+            <state relative-caret-position="1020">
+              <caret line="68" column="27" lean-forward="true" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
+              <folding>
+                <element signature="e#209#245#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,10 +276,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/show_lip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+            <state relative-caret-position="240">
+              <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
               <folding>
-                <element signature="e#189#222#0" expanded="true" />
+                <element signature="e#227#260#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,6 +304,7 @@
       <find>LSVC</find>
       <find>LR</find>
       <find>ML_wtih_transform</find>
+      <find>path_pic_no_smiles</find>
     </findStrings>
     <replaceStrings>
       <replace>im</replace>
@@ -153,6 +316,7 @@
       <replace>MLPC</replace>
       <replace>SGDC</replace>
       <replace>ML_ways_sklearn</replace>
+      <replace>path_images_no_smiles</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -172,10 +336,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="813" />
-    <option name="y" value="69" />
+    <option name="x" value="370" />
+    <option name="y" value="70" />
     <option name="width" value="1646" />
-    <option name="height" value="1053" />
+    <option name="height" value="996" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -189,6 +353,11 @@
             <path>
               <item name="Smile_Detector" type="b2602c69:ProjectViewProjectNode" />
               <item name="Smile_Detector" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Smile_Detector" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Smile_Detector" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -211,7 +380,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.show_lip">
+  <component name="RunManager" selected="Python.check_smile">
     <configuration name="ML_ways_sklearn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML_smiles" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -326,10 +495,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.check_smile" />
         <item itemvalue="Python.show_lip" />
         <item itemvalue="Python.ML_ways_sklearn" />
         <item itemvalue="Python.get_features" />
-        <item itemvalue="Python.check_smile" />
         <item itemvalue="Python.ML_wtih_transform" />
       </list>
     </recent_temporary>
@@ -348,15 +517,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="671" y="43" width="1646" height="1053" extended-state="0" />
-    <editor active="true" />
+    <frame x="370" y="70" width="1646" height="996" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15773259" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15753846" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42030567" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46875" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -393,33 +561,42 @@
     <entry file="file://$PROJECT_DIR$/ML_ways.py" />
     <entry file="file://$PROJECT_DIR$/ML_wtih_transform.py" />
     <entry file="file://$PROJECT_DIR$/data_csv/data.csv" />
-    <entry file="file://$PROJECT_DIR$/ML_ways_sklearn.py">
+    <entry file="file://$PROJECT_DIR$/get_features.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="142" column="2" selection-start-line="142" selection-start-column="2" selection-end-line="142" selection-end-column="2" />
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#189#222#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/check_smile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        <state relative-caret-position="1020">
+          <caret line="68" column="27" lean-forward="true" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
+          <folding>
+            <element signature="e#209#245#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/get_features.py">
+    <entry file="file://$PROJECT_DIR$/ML_ways_sklearn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="101" column="18" lean-forward="true" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
+        <state relative-caret-position="1200">
+          <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
+          <folding>
+            <element signature="e#204#223#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/show_lip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        <state relative-caret-position="240">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding>
-            <element signature="e#189#222#0" expanded="true" />
+            <element signature="e#227#260#0" expanded="true" />
           </folding>
         </state>
       </provider>
