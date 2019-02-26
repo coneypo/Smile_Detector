@@ -43,7 +43,7 @@ def pre_data():
         rd_csv[column_names[0:40]],
         rd_csv[column_names[40]],
 
-        # 25% for test, 75% for train
+        # 25% for testing, 75% for training
         test_size=0.25,
         random_state=33)
 
@@ -75,7 +75,7 @@ def model_LR():
 
     # 评分函数
     score_LR = LR.score(X_test_LR, y_test_LR)
-    print("The accurary of LR:", score_LR)
+    # print("The accurary of LR:", score_LR)
 
     # print(type(ss_LR))
     return (ss_LR)

@@ -5,7 +5,7 @@
 # Created on:   2018-01-27
 # Updated on:   2018-10-09
 
-import dlib         # 人脸识别的库 Dlib
+import dlib         # 人脸处理的库 Dlib
 import numpy as np  # 数据处理的库 numpy
 import cv2          # 图像处理的库 OpenCv
 import os           # 读取文件
@@ -16,35 +16,35 @@ detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor('data/data_dlib_model/shape_predictor_68_face_landmarks.dat')
 
 
-# 输入图像文件所在路径，返回一个 41 维数组（包含提取到的40维特征和1维输出标记）
+# 输入图像文件所在路径，返回一个41维数组（包含提取到的40维特征和1维输出标记）
 def get_features(img_rd):
 
     # 输入:  img_rd:      图像文件
-    # 输出:  pos_49to68:  feature 49 to feature 68, 20 feature points in all, 40 points
+    # 输出:  positions_lip_arr:  feature point 49 to feature point 68, 20 feature points / 40D in all
 
     # read img file
     img = cv2.imread(img_rd)
     # 取灰度
     img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-    # 计算 68 点坐标
-    pos_68 = []
-    rects = detector(img_gray, 0)
-    landmarks = np.matrix([[p.x, p.y] for p in predictor(img, rects[0]).parts()])
+    # 计算68点坐标
+    positions_68_arr = []
+    faces = detector(img_gray, 0)
+    landmarks = np.matrix([[p.x, p.y] for p in predictor(img, faces[0]).parts()])
 
     for idx, point in enumerate(landmarks):
         # 68点的坐标
         pos = (point[0, 0], point[0, 1])
-        pos_68.append(pos)
+        positions_68_arr.append(pos)
 
-    pos_49to68 = []
+    positions_lip_arr = []
     # 将点 49-68 写入 CSV
-    # 即 pos_68[48]-pos_68[67]
+    # 即 positions_68_arr[48]-positions_68_arr[67]
     for i in range(48, 68):
-        pos_49to68.append(pos_68[i][0])
-        pos_49to68.append(pos_68[i][1])
+        positions_lip_arr.append(positions_68_arr[i][0])
+        positions_lip_arr.append(positions_68_arr[i][1])
 
-    return pos_49to68
+    return positions_lip_arr
 
 
 # 读取图像所在的路径
@@ -67,15 +67,12 @@ def write_into_CSV():
         # 处理带笑脸的图像
         print("######## with smiles #########")
         for i in range(len(imgs_smiles)):
-            print(path_images_with_smiles, imgs_smiles[i])
-
-            # 用来存放41维特征
-            features_csv_smiles = []
+            print(path_images_with_smiles+imgs_smiles[i])
 
             # append "1" means "with smiles"
             features_csv_smiles = get_features(path_images_with_smiles+imgs_smiles[i])
             features_csv_smiles.append(1)
-            print("features:", features_csv_smiles, "\n")
+            print("positions of lips:", features_csv_smiles, "\n")
 
             # 写入CSV
             writer.writerow(features_csv_smiles)
@@ -83,15 +80,12 @@ def write_into_CSV():
         # 处理不带笑脸的图像
         print("######## no smiles #########")
         for i in range(len(imgs_no_smiles)):
-            print(path_images_no_smiles, imgs_no_smiles[i])
-
-            # 用来存放41维特征
-            features_csv_no_smiles = []
+            print(path_images_no_smiles+imgs_no_smiles[i])
 
             # append "0" means "no smiles"
             features_csv_no_smiles = get_features(path_images_no_smiles + imgs_no_smiles[i])
             features_csv_no_smiles.append(0)
-            print("features:", features_csv_no_smiles, "\n")
+            print("positions of lips:", features_csv_no_smiles, "\n")
 
             # 写入CSV
             writer.writerow(features_csv_no_smiles)
